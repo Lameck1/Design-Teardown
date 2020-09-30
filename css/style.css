@@ -101,3 +101,52 @@ main {
 #latest-articles .theme p {
   margin-left: 20px;
 }
+
+#latest-articles-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+#latest-articles-container article {
+  border: 1px solid;
+  height: 725px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 70px;
+}
+
+.writer {
+  display: flex;
+  align-items: center;
+}
+
+.tilt {
+  height: 86px;
+  width: 86px;
+  background-color: var(--black);
+  border-radius: 15px;
+  transform: rotate(-20deg);
+}
+
+.writer p {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+#latest-articles-container .title {
+  /* display: flex; */
+}
+
+#latest-articles-container .title h2 {
+  font-size: 40px;
+}
+
+#latest-articles-container .title .comment {
+  display: inline-block;
+  width: 160px;
+  height: 25px;
+  background-color: var(--black);
+}

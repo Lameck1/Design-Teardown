@@ -1,349 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Smashing Magazine</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <a href="#" class="logo">
-            <img src="./images/smashing-mag-logo.svg" alt="logo">
-        </a>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">Guides</a></li>
-                <li><a href="#">Books</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Membership</a></li>
-                <li><a href="#">More</a></li>
-            </ul>
-        </nav>
-        <form action="#" class="search">
-            <input type="text" placeholder="Search articles...">
-        </form>
+      <a href="#" class="logo">
+        <img src="./images/smashing-mag-logo.svg" alt="logo" />
+      </a>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </nav>
+      <form action="#" class="search">
+        <input type="text" placeholder="Search articles..." />
+      </form>
     </header>
 
     <main>
-        <section id="latest-articles">
-            <h1>Don't Miss These Latest Articles</h1>
+      <section id="latest-articles">
+        <h1>Don't Miss These Latest Articles</h1>
 
-            <div class="theme">
-                <div></div>
-                <p>Seriouly, red?</p>
-            </div>
-
-            <div id="latest-articles-container">
-                <article>
-                    <div class="writer">
-                        <div class="tilt"></div>
-                        <p>lorem ipum</p>
-                    </div>
-
-                    <div class="title">
-                        <h2>Unit Testing in React Native Applications</h2>
-                        <p class="comment"></p>
-                    </div>
-
-                    <div class="tags">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </article>
-
-                <article>
-                    <div class="writer">
-                        <div class="tilt"></div>
-                        <p>lorem ipum</p>
-                    </div>
-                    <h2>Unit Testing in React Native Applications</h2>
-                    <p class="comment"></p>
-
-                    <div class="tags">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </article>
-
-                <article>
-                    <div class="writer">
-                        <div class="tilt"></div>
-                        <p>lorem ipum</p>
-                    </div>
-                    <h2>Unit Testing in React Native Applications</h2>
-                    <p class="comment"></p>
-
-                    <div class="tags">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </article>
-
-                <article>
-                    <div class="writer">
-                        <div class="tilt"></div>
-                        <p>lorem ipum</p>
-                    </div>
-                    <h2>Unit Testing in React Native Applications</h2>
-                    <p class="comment"></p>
-
-                    <div class="tags">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section id="membership">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit debitis, ad laudantium, porro quasi accusantium, magnam officiis sunt laborum pariatur corrupti adipisci placeat. Quaerat cupiditate natus, accusamus consectetur blanditiis eos!
-            <div class="image"></div>
-            <a href="#" class="btn">About Smashing Membership</a>
-        </section>
-
-        <section id="latest-posts">
-            <article>
-                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
-                <p class="author">by Bryan Robinson</p>
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, deleniti accusantium possimus ratione eum quos voluptates deserunt ex placeat delectus iste quia. Officiis distinctio praesentium officia deserunt voluptate vero repellendus.
-                </p>
-            </article>
-            <article>
-                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
-                <p class="author">by Bryan Robinson</p>
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, deleniti accusantium possimus ratione eum quos voluptates deserunt ex placeat delectus iste quia. Officiis distinctio praesentium officia deserunt voluptate vero repellendus.
-                </p>
-            </article>
-            <article>
-                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
-                <p class="author">by Bryan Robinson</p>
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, deleniti accusantium possimus ratione eum quos voluptates deserunt ex placeat delectus iste quia. Officiis distinctio praesentium officia deserunt voluptate vero repellendus.
-                </p>
-            </article>
-            <div id="supporter">
-                <a href="#">sign up today</a>
-            </div>
-            <div id="members">
-                <div class="image"></div>
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam quae repellendus quisquam sint itaque, rem quis sequi perferendis debitis.</p>
-                <a href="#" class="btn">Lorem ipsum dolor</a>
-            </div>
-            <article>
-                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
-                <p class="author">by Bryan Robinson</p>
-                <p class="text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, deleniti accusantium possimus ratione eum quos voluptates deserunt ex placeat delectus iste quia. Officiis distinctio praesentium officia deserunt voluptate vero repellendus.
-                            </p>
-            </article>
-            <article>
-                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
-                <p class="author">by Bryan Robinson</p>
-                <p class="text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, deleniti accusantium possimus ratione eum quos voluptates deserunt ex placeat delectus iste quia. Officiis distinctio praesentium officia deserunt voluptate vero repellendus.
-                            </p>
-            </article>
-            <article>
-                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
-                <p class="author">by Bryan Robinson</p>
-                <p class="text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, deleniti accusantium possimus ratione eum quos voluptates deserunt ex placeat delectus iste quia. Officiis distinctio praesentium officia deserunt voluptate vero repellendus.
-                            </p>
-            </article>
-            <article>
-                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
-                <p class="author">by Bryan Robinson</p>
-                <p class="text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, deleniti accusantium possimus ratione eum quos voluptates deserunt ex placeat delectus iste quia. Officiis distinctio praesentium officia deserunt voluptate vero repellendus.
-                            </p>
-            </article>
-        </section>
-
-        <section id="upcoming">
-            <div class="image"></div>
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dicta, commodi voluptas facilis incidunt inventore doloribus quae</p>
-            <a href="#" class="btn">Lorem ipsum dolor sit amet</a>
-        </section>
-
-        <div class="load_more">
-            <a href="#">See All Latest Articles</a>
+        <div class="theme">
+          <div></div>
+          <p>Seriouly, red?</p>
         </div>
 
-        <section id="shipping-now">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dicta, commodi voluptas facilis incidunt inventore doloribus quae</p>
-            <a href="#" class="btn">Lorem ipsum dolor sit amet</a>
-            <div class="image"></div>
-        </section>
+        <div id="latest-articles-container">
+          <article>
+            <div class="writer">
+              <div class="tilt"></div>
+              <p>lorem ipum</p>
+            </div>
 
-        <section id="person-week">
-            <div class="image"></div>
-            <div class="text">
-                <h3>Person Of The Week</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quos sapiente eligendi libero illum dolorem consectetur doloremque animi eveniet magnam. Laudantium perferendis culpa suscipit aut excepturi dignissimos dolore nobis id.</p>
+            <div class="title">
+              <h2>Unit Testing in React Native Applications</h2>
+              <p class="comment"></p>
             </div>
-        </section>
 
-        <section id="popular-writers">
-            <div class="popular-writer">
-                <div class="image_wrap">
-                    <div class="image"></div>
-                </div>
-                <div class="text">
-                    <p class="name">Lorem ipsum dolor</p>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio totam odit soluta cupiditate ipsum, veniam, hic veritatis similique debitis nostrum, ea quis quia rem sint nemo! Laboriosam, quo eligendi!</p>
-                </div>
+            <div class="tags">
+              <p></p>
+              <p></p>
+              <p></p>
             </div>
-            <div class="popular-writer">
-                <div class="image_wrap">
-                    <div class="image"></div>
-                </div>
-                <div class="text">
-                    <p class="name">Lorem ipsum dolor</p>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio totam odit soluta cupiditate ipsum, veniam, hic veritatis similique debitis nostrum, ea quis quia rem sint nemo! Laboriosam, quo eligendi!</p>
-                </div>
-            </div>
-            <div class="popular-writer">
-                <div class="image_wrap">
-                    <div class="image"></div>
-                </div>
-                <div class="text">
-                    <p class="name">Lorem ipsum dolor</p>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio totam odit soluta cupiditate ipsum, veniam, hic veritatis similique debitis nostrum, ea quis quia rem sint nemo! Laboriosam, quo eligendi!</p>
-                </div>
-            </div>
-            <div class="popular-writer">
-                <div class="image_wrap">
-                    <div class="image"></div>
-                </div>
-                <div class="text">
-                    <p class="name">Lorem ipsum dolor</p>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio totam odit soluta cupiditate ipsum, veniam, hic veritatis similique debitis nostrum, ea quis quia rem sint nemo! Laboriosam, quo eligendi!</p>
-                </div>
-            </div>
-            <div class="popular-writer">
-                <div class="image_wrap">
-                    <div class="image"></div>
-                </div>
-                <div class="text">
-                    <p class="name">Lorem ipsum dolor</p>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio totam odit soluta cupiditate ipsum, veniam, hic veritatis similique debitis nostrum, ea quis quia rem sint nemo! Laboriosam, quo eligendi!</p>
-                </div>
-            </div>
-            <div class="popular-writer">
-                <div class="image_wrap">
-                    <div class="image"></div>
-                </div>
-                <div class="text">
-                    <p class="name">Lorem ipsum dolor</p>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio totam odit soluta cupiditate ipsum, veniam, hic veritatis similique debitis nostrum, ea quis quia rem sint nemo! Laboriosam, quo eligendi!</p>
-                </div>
-            </div>
-        </section>
+          </article>
 
-        <div class="load_more">
-            <a href="#">See All Latest Articles</a>
+          <article>
+            <div class="writer">
+              <div class="tilt"></div>
+              <p>lorem ipum</p>
+            </div>
+
+            <div class="title">
+              <h2>Unit Testing in React Native Applications</h2>
+              <p class="comment"></p>
+            </div>
+
+            <div class="tags">
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </article>
+
+          <article>
+            <div class="writer">
+              <div class="tilt"></div>
+              <p>lorem ipum</p>
+            </div>
+
+            <div class="title">
+              <h2>Unit Testing in React Native Applications</h2>
+              <p class="comment"></p>
+            </div>
+
+            <div class="tags">
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </article>
+
+          <article>
+            <div class="writer">
+              <div class="tilt"></div>
+              <p>lorem ipum</p>
+            </div>
+
+            <div class="title">
+              <h2>Unit Testing in React Native Applications</h2>
+              <p class="comment"></p>
+            </div>
+
+            <div class="tags">
+              <p></p>
+              <p></p>
+              <p></p>
+            </div>
+          </article>
         </div>
+      </section>
 
-        <section id="design-systems">
-            <p>Lorem ipsum dolor sit amet</p>
-            <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi tempora architecto quae voluptatibus unde possimus voluptas commodi repudiandae dolorum assumenda corrupti, animi optio similique neque tempore id amet in?</p>
-            <a href="#" class="btn">Lorem ipsum dolor</a>
-            <div class="image"></div>
-        </section>
+      <div id="membership">
+          <div class="container">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+                debitis, ad laudantium, porro quasi accusantium, magnam officiis sunt
+                laborum pariatur corrupti adipisci placeat. Quaerat cupiditate natus,
+                accusamus consectetur blanditiis eos!.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+                debitis, ad laudantium, porro quasi accusantium, magnam officiis sunt
+                laborum pariatur corrupti adipisci placeat. Quaerat cupiditate natus,
+                accusamus consectetur blanditiis eos!
+              </p>
 
-        <section id="our-guides">
-            <div class="guides">
-                <p>Lorem ipsum dolor</p>
-                <h1>Lorem ipsum dolor</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum deleniti reiciendis eveniet. Aliquid, cumque ducimus rem qui dignissimos eveniet magni architecto tenetur possimus asperiores? Repudiandae, natus neque? Doloribus, ab.</p>
-                <a href="#" class="btn">Lorem ipsum dolor</a>
-            </div>
-            <div class="guides">
-                <p>Lorem ipsum dolor</p>
-                <h1>Lorem ipsum dolor</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum deleniti reiciendis eveniet. Aliquid, cumque ducimus rem qui dignissimos eveniet magni architecto tenetur possimus asperiores? Repudiandae, natus neque? Doloribus, ab.</p>
-                <a href="#" class="btn">Lorem ipsum dolor</a>
-            </div>
-            <div class="guides">
-                <p>Lorem ipsum dolor</p>
-                <h1>Lorem ipsum dolor</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nostrum deleniti reiciendis eveniet. Aliquid, cumque ducimus rem qui dignissimos eveniet magni architecto tenetur possimus asperiores? Repudiandae, natus neque? Doloribus, ab.</p>
-                <a href="#" class="btn">Lorem ipsum dolor</a>
-            </div>
-            <div class="guides" id="news-letter">
-                <div class="image"></div>
-                <h2>Lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi tempora architecto quae voluptatibus unde possimus voluptas commodi repudiandae dolorum assumenda corrupti, animi optio similique neque tempore id amet in?</p>
-                <div class="email"></div>
-            </div>
-        </section>
+              <a href="#" class="btn">About Smashing Membership</a>
+          </div>
+        
+        <div class="image"></div>
+        
+      </div>
 
-        <div class="load_more">
-            <a href="#">See All Latest Articles</a>
+      <section id="latest-posts">
+        <article>
+            <a href="#">
+                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
+                    <p class="author">by Bryan Robinson</p>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                      deleniti accusantium possimus ratione eum quos voluptates deserunt
+                      ex placeat delectus iste quia. Officiis distinctio praesentium
+                      officia deserunt voluptate vero repellendus.
+                    </p>
+            </a>          
+        </article>
+        <article>
+            <a href="#">
+                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
+                    <p class="author">by Bryan Robinson</p>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                      deleniti accusantium possimus ratione eum quos voluptates deserunt
+                      ex placeat delectus iste quia. Officiis distinctio praesentium
+                      officia deserunt voluptate vero repellendus.
+                    </p>
+            </a>          
+        </article>
+        
+        <article>
+            <a href="#">
+                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
+                    <p class="author">by Bryan Robinson</p>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                      deleniti accusantium possimus ratione eum quos voluptates deserunt
+                      ex placeat delectus iste quia. Officiis distinctio praesentium
+                      officia deserunt voluptate vero repellendus.
+                    </p>
+            </a>          
+        </article>
+        <div id="supporter">
+          <a href="#">sign up today</a>
         </div>
+        <div id="members">
+          <div class="image"></div>
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+            magnam quae repellendus quisquam sint itaque, rem quis sequi
+            perferendis debitis.
+          </p>
+          <a href="#" class="btn">Lorem ipsum dolor</a>
+        </div>
+        <article>
+            <a href="#">
+                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
+                    <p class="author">by Bryan Robinson</p>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                      deleniti accusantium possimus ratione eum quos voluptates deserunt
+                      ex placeat delectus iste quia. Officiis distinctio praesentium
+                      officia deserunt voluptate vero repellendus.
+                    </p>
+            </a>          
+        </article>
+        <article>
+            <a href="#">
+                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
+                    <p class="author">by Bryan Robinson</p>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                      deleniti accusantium possimus ratione eum quos voluptates deserunt
+                      ex placeat delectus iste quia. Officiis distinctio praesentium
+                      officia deserunt voluptate vero repellendus.
+                    </p>
+            </a>          
+        </article>
+        <article>
+            <a href="#">
+                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
+                    <p class="author">by Bryan Robinson</p>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                      deleniti accusantium possimus ratione eum quos voluptates deserunt
+                      ex placeat delectus iste quia. Officiis distinctio praesentium
+                      officia deserunt voluptate vero repellendus.
+                    </p>
+            </a>          
+        </article>
+        <article>
+            <a href="#">
+                <h2>Lorem, ipsum dolor sit amet consectetur</h2>
+                    <p class="author">by Bryan Robinson</p>
+                    <p class="text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                      deleniti accusantium possimus ratione eum quos voluptates deserunt
+                      ex placeat delectus iste quia. Officiis distinctio praesentium
+                      officia deserunt voluptate vero repellendus.
+                    </p>
+            </a>          
+        </article>
+      </section>
+
+      <section id="upcoming">
+        <div class="image"></div>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+          dicta, commodi voluptas facilis incidunt inventore doloribus quae
+        </p>
+        <a href="#" class="btn">Lorem ipsum dolor sit amet</a>
+      </section>
+
+      <div class="load_more">
+        <a href="#">See All Latest Articles</a>
+      </div>
+
+      <section id="shipping-now">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+          dicta, commodi voluptas facilis incidunt inventore doloribus quae
+        </p>
+        <a href="#" class="btn">Lorem ipsum dolor sit amet</a>
+        <div class="image"></div>
+      </section>
+
+      <section id="person-week">
+        <div class="image"></div>
+        <div class="text">
+          <h3>Person Of The Week</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio quos
+            sapiente eligendi libero illum dolorem consectetur doloremque animi
+            eveniet magnam. Laudantium perferendis culpa suscipit aut excepturi
+            dignissimos dolore nobis id.
+          </p>
+        </div>
+      </section>
+
+      <section id="popular-writers">
+        <div class="popular-writer">
+          <div class="image_wrap">
+            <div class="image"></div>
+          </div>
+          <div class="text">
+            <p class="name">Lorem ipsum dolor</p>
+            <h4>Lorem ipsum dolor</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              distinctio totam odit soluta cupiditate ipsum, veniam, hic
+              veritatis similique debitis nostrum, ea quis quia rem sint nemo!
+              Laboriosam, quo eligendi!
+            </p>
+          </div>
+        </div>
+        <div class="popular-writer">
+          <div class="image_wrap">
+            <div class="image"></div>
+          </div>
+          <div class="text">
+            <p class="name">Lorem ipsum dolor</p>
+            <h4>Lorem ipsum dolor</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              distinctio totam odit soluta cupiditate ipsum, veniam, hic
+              veritatis similique debitis nostrum, ea quis quia rem sint nemo!
+              Laboriosam, quo eligendi!
+            </p>
+          </div>
+        </div>
+        <div class="popular-writer">
+          <div class="image_wrap">
+            <div class="image"></div>
+          </div>
+          <div class="text">
+            <p class="name">Lorem ipsum dolor</p>
+            <h4>Lorem ipsum dolor</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              distinctio totam odit soluta cupiditate ipsum, veniam, hic
+              veritatis similique debitis nostrum, ea quis quia rem sint nemo!
+              Laboriosam, quo eligendi!
+            </p>
+          </div>
+        </div>
+        <div class="popular-writer">
+          <div class="image_wrap">
+            <div class="image"></div>
+          </div>
+          <div class="text">
+            <p class="name">Lorem ipsum dolor</p>
+            <h4>Lorem ipsum dolor</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              distinctio totam odit soluta cupiditate ipsum, veniam, hic
+              veritatis similique debitis nostrum, ea quis quia rem sint nemo!
+              Laboriosam, quo eligendi!
+            </p>
+          </div>
+        </div>
+        <div class="popular-writer">
+          <div class="image_wrap">
+            <div class="image"></div>
+          </div>
+          <div class="text">
+            <p class="name">Lorem ipsum dolor</p>
+            <h4>Lorem ipsum dolor</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              distinctio totam odit soluta cupiditate ipsum, veniam, hic
+              veritatis similique debitis nostrum, ea quis quia rem sint nemo!
+              Laboriosam, quo eligendi!
+            </p>
+          </div>
+        </div>
+        <div class="popular-writer">
+          <div class="image_wrap">
+            <div class="image"></div>
+          </div>
+          <div class="text">
+            <p class="name">Lorem ipsum dolor</p>
+            <h4>Lorem ipsum dolor</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              distinctio totam odit soluta cupiditate ipsum, veniam, hic
+              veritatis similique debitis nostrum, ea quis quia rem sint nemo!
+              Laboriosam, quo eligendi!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="load_more">
+        <a href="#">See All Latest Articles</a>
+      </div>
+
+      <section id="design-systems">
+        <p>Lorem ipsum dolor sit amet</p>
+        <h2>Lorem ipsum</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi
+          tempora architecto quae voluptatibus unde possimus voluptas commodi
+          repudiandae dolorum assumenda corrupti, animi optio similique neque
+          tempore id amet in?
+        </p>
+        <a href="#" class="btn">Lorem ipsum dolor</a>
+        <div class="image"></div>
+      </section>
+
+      <section id="our-guides">
+        <div class="guides">
+          <p>Lorem ipsum dolor</p>
+          <h1>Lorem ipsum dolor</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            nostrum deleniti reiciendis eveniet. Aliquid, cumque ducimus rem qui
+            dignissimos eveniet magni architecto tenetur possimus asperiores?
+            Repudiandae, natus neque? Doloribus, ab.
+          </p>
+          <a href="#" class="btn">Lorem ipsum dolor</a>
+        </div>
+        <div class="guides">
+          <p>Lorem ipsum dolor</p>
+          <h1>Lorem ipsum dolor</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            nostrum deleniti reiciendis eveniet. Aliquid, cumque ducimus rem qui
+            dignissimos eveniet magni architecto tenetur possimus asperiores?
+            Repudiandae, natus neque? Doloribus, ab.
+          </p>
+          <a href="#" class="btn">Lorem ipsum dolor</a>
+        </div>
+        <div class="guides">
+          <p>Lorem ipsum dolor</p>
+          <h1>Lorem ipsum dolor</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            nostrum deleniti reiciendis eveniet. Aliquid, cumque ducimus rem qui
+            dignissimos eveniet magni architecto tenetur possimus asperiores?
+            Repudiandae, natus neque? Doloribus, ab.
+          </p>
+          <a href="#" class="btn">Lorem ipsum dolor</a>
+        </div>
+        <div class="guides" id="news-letter">
+          <div class="image"></div>
+          <h2>Lorem ipsum</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi
+            tempora architecto quae voluptatibus unde possimus voluptas commodi
+            repudiandae dolorum assumenda corrupti, animi optio similique neque
+            tempore id amet in?
+          </p>
+          <div class="email"></div>
+        </div>
+      </section>
+
+      <div class="load_more">
+        <a href="#">See All Latest Articles</a>
+      </div>
     </main>
 
     <footer class="footer">
-        <h4>Browse All Smashing Magazine Topics</h4>
-        <ul id="footer-navigation">
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">HTML</a></li>
-        </ul>
-        <div id="footer-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <ul id="footer-links">
-            <li><a href="#">Lorem</a></li>
-            <li><a href="#">Lorem</a></li>
-            <li><a href="#">Lorem</a></li>
-            <li><a href="#">Lorem</a></li>
-            <li><a href="#">Lorem</a></li>
-            <li><a href="#">Lorem</a></li>
-            <li><a href="#">Lorem</a></li>
-        </ul>
+      <h4>Browse All Smashing Magazine Topics</h4>
+      <ul id="footer-navigation">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">HTML</a></li>
+      </ul>
+      <div id="footer-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <ul id="footer-links">
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+        <li><a href="#">Lorem</a></li>
+      </ul>
     </footer>
-</body>
-
+  </body>
 </html>

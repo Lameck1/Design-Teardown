@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap");
 
 /* Variable */
 :root {
@@ -8,18 +8,22 @@
   --dark-grey: #585858;
   --medium-grey: #a09f9f;
   --black: #000;
-  --font-balsamiq: 'Balsamiq Sans', cursive;
-  --font-pt-serif: 'PT Serif', serif;
+  --font-balsamiq: "Balsamiq Sans", cursive;
+  --font-pt-serif: "PT Serif", serif;
 }
 
 /* General */
 body {
-  width: 1440px;
-  margin: 0 auto;
+  font-family: var(--font-balsamiq);
 }
 
 a {
   text-decoration: none;
+}
+
+main {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 /* Navigation */
@@ -27,7 +31,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   height: 103px;
   padding: 16px 40px;
   background-color: var(--black);
@@ -36,6 +39,10 @@ a {
 .logo {
   width: 214px;
   height: 100%;
+  margin-top: 44px;
+}
+.logo img {
+  width: 100%;
 }
 
 .nav-bar ul {
@@ -55,11 +62,42 @@ a {
 }
 
 .search {
-
 }
 
 .search input {
   border-radius: 11px;
   width: 300px;
   padding: 10px;
+}
+
+#latest-articles {
+  background-color: aquamarine;
+  position: relative;
+}
+
+#latest-articles h1 {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#latest-articles .theme {
+  position: absolute;
+  right: 80px;
+  display: flex;
+  align-items: center;
+}
+
+#latest-articles .theme div {
+  width: 60px;
+  height: 60px;
+  background-color: var(--black);
+  transform: rotate(-20deg);
+  border-radius: 15px;
+}
+
+#latest-articles .theme p {
+  margin-left: 20px;
 }

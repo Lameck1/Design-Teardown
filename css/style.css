@@ -359,3 +359,23 @@ main {
   height: 517px;
   margin: 0 auto;
 }
+
+#person-week {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 40px auto;
+}
+
+#person-week .image {
+  width: 155px;
+  height: 155px;
+  border-radius: 15px;
+  background-color: var(--black);
+  margin-right: 40px;
+  transform: rotate(-20deg);
+}
+
+#person-week .text {
+  width: 1013px;
+}

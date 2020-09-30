@@ -61,6 +61,7 @@ main {
   height: 100%;
   margin-top: 44px;
 }
+
 .logo img {
   width: 100%;
 }
@@ -129,7 +130,6 @@ main {
   border: 1px solid;
   height: 725px;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
   padding-left: 70px;
@@ -327,6 +327,7 @@ main {
 .load-more a {
   color: var(--black);
   border-bottom: 3px solid var(--black);
+  text-transform: uppercase;
 }
 
 /* shipping-now */
@@ -362,7 +363,7 @@ main {
 
 #person-week {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 90%;
   margin: 40px auto;
 }
@@ -378,4 +379,41 @@ main {
 
 #person-week .text {
   width: 1013px;
+  margin-top: -20px;
+}
+
+#popular-writers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.popular-writer {
+  display: flex;
+  align-items: flex-start;
+  height: 225px;
+  padding: 100px 0;
+}
+
+.popular-writer .image_wrap .image {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  transform: rotate(-20deg);
+  background-color: var(--black);
+  margin-right: 40px;
+}
+
+.popular-writer .text {
+  margin-top: -25px;
+}
+
+.popular-writer .text h4 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.popular-writer .text p {
+  line-height: 1.7;
 }

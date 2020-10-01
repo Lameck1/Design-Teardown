@@ -5,8 +5,11 @@
 :root {
   --white: #fff;
   --light-grey: #d9d9d9;
-  --dark-grey: #585858;
   --medium-grey: #a09f9f;
+  --dark-grey: #585858;
+  --dark-grey-02: #353535;
+  --dark-grey-03: #242424;
+  --dark-grey-04: #0a0a0a;
   --black: #000;
   --font-balsamiq: "Balsamiq Sans", cursive;
   --font-pt-serif: "PT Serif", serif;
@@ -62,7 +65,7 @@ main {
   justify-content: space-between;
   height: 103px;
   padding: 16px 40px;
-  background-color: var(--dark-grey);
+  background-color: var(--dark-grey-02);
 }
 
 .logo {
@@ -81,6 +84,10 @@ main {
 
 .nav-bar ul li {
   padding: 10px 1em;
+  background-color: var(--dark-grey-03);
+}
+
+.nav-bar ul li:last-child {
   background-color: var(--black);
 }
 
@@ -92,7 +99,8 @@ main {
 }
 
 .guides h1 a {
-  color: var(--black);
+  background-color: var(--dark-grey-02);
+  color: var(--white);
   text-decoration: underline;
 }
 
@@ -118,6 +126,8 @@ main {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  font-size: 50px;
+  background-color: var(--white);
 }
 
 #latest-articles .theme {
@@ -140,7 +150,7 @@ main {
 #latest-articles .theme div {
   width: 60px;
   height: 60px;
-  background-color: var(--black);
+  background-color: var(--white);
   transform: rotate(-20deg);
   border-radius: 15px;
 }
@@ -179,6 +189,7 @@ main {
   width: 50%;
   margin: 0 auto;
   line-height: 1.7;
+  color: var(--white);
 }
 
 #members p {
@@ -192,10 +203,12 @@ main {
   margin: 0 auto 40px;
   font-size: 24px;
   line-height: 1.7;
+  color: var(--white);
 }
 
 #latest-articles .theme p {
   margin-left: 20px;
+  color: var(--white);
 }
 
 #latest-articles-container {
@@ -213,6 +226,22 @@ main {
   padding-left: 70px;
 }
 
+#latest-articles-container article:first-child {
+  background-color: var(--dark-grey-02);
+}
+
+#latest-articles-container article:nth-child(2) {
+  background-color: var(--dark-grey);
+}
+
+#latest-articles-container article:nth-child(3) {
+  background-color: var(--dark-grey-03);
+}
+
+#latest-articles-container article:last-child {
+  background-color: var(--dark-grey-02);
+}
+
 .writer {
   display: flex;
   align-items: center;
@@ -228,16 +257,28 @@ main {
 
 #design-systems h2 {
   font-size: 40px;
+  color: var(--white);
+}
+
+#news-letter {
+  background-color: var(--dark-grey-02);
 }
 
 #news-letter h2 {
   font-size: 40px;
+  color: var(--white);
+}
+
+#news-letter.guides p {
+  color: var(--white);
 }
 
 #latest-posts article h2 {
   text-decoration: underline;
   font-size: 30px;
   margin-bottom: 40px;
+  background-color: var(--dark-grey-02);
+  color: var(--white);
 }
 
 #latest-articles-container .title {
@@ -261,8 +302,9 @@ main {
 #membership {
   width: 100%;
   height: 489px;
-  background-color: var(--dark-grey);
+  background-color: var(--dark-grey-03);
   position: relative;
+  color: var(--white);
 }
 
 .popular-writer .image_wrap .image {
@@ -270,7 +312,7 @@ main {
   height: 70px;
   border-radius: 15px;
   transform: rotate(-20deg);
-  background-color: var(--black);
+  background-color: var(--dark-grey);
   margin-right: 40px;
 }
 
@@ -292,7 +334,7 @@ main {
 
 #latest-posts article {
   height: 465px;
-  background-color: var(--medium-grey);
+  /* background-color: var(--medium-grey); */
 }
 
 #supporter a {
@@ -325,6 +367,7 @@ main {
   font-family: var(--font-pt-serif);
   line-height: 1.7;
   width: 834px;
+  color: var(--white);
 }
 
 #latest-posts article .text {
@@ -340,7 +383,7 @@ main {
 /* Members */
 #members {
   height: 745px;
-  background-color: var(--black);
+  background-color: var(--dark-grey-04);
   border-radius: 15px;
   padding: 50px 30px 0;
   text-align: center;
@@ -367,7 +410,7 @@ main {
 /* upcoming */
 #upcoming {
   height: 658px;
-  background-color: var(--light-grey);
+  background-color: var(--dark-grey-02);
   border-radius: 15px;
   margin: 0 auto;
   padding: 80px 0 0;
@@ -397,14 +440,14 @@ main {
 #shipping-now {
   width: 100%;
   height: 1063px;
-  background-color: aquamarine;
+  background-color: var(--dark-grey-02);
   text-align: center;
   padding: 60px 0 0;
 }
 
 #shipping-now h2 a {
   font-size: 50px;
-  color: var(--black);
+  color: var(--white);
 }
 
 #shipping-now .btn {
@@ -429,7 +472,7 @@ main {
   width: 155px;
   height: 155px;
   border-radius: 15px;
-  background-color: var(--black);
+  background-color: var(--dark-grey);
   margin-right: 40px;
   transform: rotate(-20deg);
 }
@@ -452,16 +495,19 @@ main {
 .footer h4 {
   font-size: 14px;
   text-transform: uppercase;
+  color: var(--white);
 }
 
 .popular-writer .text h4 {
   font-size: 32px;
   margin: 0;
+  background-color: var(--dark-grey-02);
+  color: var(--white);
 }
 
 /* design-systems */
 #design-systems {
-  background-color: palevioletred;
+  background-color: var(--dark-grey-02);
   height: 410px;
   padding: 51px 71px 0 71px;
   position: relative;
@@ -469,6 +515,7 @@ main {
 
 #design-systems .subtitle {
   text-transform: uppercase;
+  color: var(--white);
 }
 
 #design-systems .image {
@@ -482,6 +529,10 @@ main {
 }
 
 /* our-guides */
+#our-guides {
+  background-color: var(--light-grey);
+}
+
 #our-guides .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -489,7 +540,7 @@ main {
 }
 
 .guides {
-  background-color: var(--light-grey);
+  background-color: var(--white);
   border-radius: 15px;
   padding: 20px;
 }
@@ -507,13 +558,13 @@ main {
   width: 100%;
   height: 50px;
   margin: 0 auto;
-  background-color: var(--black);
+  background-color: var(--dark-grey);
   border-radius: 15px;
 }
 
 /* footer */
 .footer {
-  background-color: var(--light-grey);
+  background-color: var(--dark-grey-02);
   text-align: center;
   position: relative;
   font-family: var(--font-pt-serif);
@@ -534,6 +585,7 @@ main {
 #footer-navigation li::before {
   content: "･";
   margin: 0 6px;
+  color: var(--white);
 }
 
 #footer-navigation li a {
@@ -547,6 +599,7 @@ main {
   font-style: italic;
   width: 50%;
   margin: 0 auto;
+  color: var(--white);
 }
 
 #footer-links {
@@ -569,7 +622,7 @@ main {
 .footer-image {
   width: 200px;
   height: 200px;
-  background-color: var(--white);
+  background-color: var(--light-grey);
   position: absolute;
   border-radius: 50%;
 }

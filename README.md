@@ -12,7 +12,7 @@ This project consists of building a heatmap of the Smashing magazine website
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Lameck1/Design-Teardown/smashing-magazine-heatmap/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Lameck1/Design-Teardown/197464df457f1e8422f040aba9379c9a9bc772d6/index.html)
 
 ## Getting Started
 

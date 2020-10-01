@@ -34,6 +34,10 @@ main {
   width: 100%;
 }
 
+h5 {
+  display: none;
+}
+
 .image {
   background-color: var(--light-grey);
 }
@@ -98,7 +102,7 @@ main {
   font-family: var(--font-pt-serif);
 }
 
-.guides h1 a {
+.guides a {
   background-color: var(--dark-grey-02);
   color: var(--white);
   text-decoration: underline;

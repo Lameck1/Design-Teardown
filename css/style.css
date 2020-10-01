@@ -226,6 +226,10 @@ main {
   padding-left: 70px;
 }
 
+#latest-posts article {
+  height: 465px;
+}
+
 #latest-articles-container article:first-child {
   background-color: var(--dark-grey-02);
 }
@@ -258,10 +262,6 @@ main {
 #design-systems h2 {
   font-size: 40px;
   color: var(--white);
-}
-
-#news-letter {
-  background-color: var(--dark-grey-02);
 }
 
 #news-letter h2 {
@@ -330,11 +330,6 @@ main {
 #latest-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-#latest-posts article {
-  height: 465px;
-  /* background-color: var(--medium-grey); */
 }
 
 #supporter a {
@@ -546,6 +541,7 @@ main {
 }
 
 #news-letter {
+  background-color: var(--dark-grey-02);
   padding: 40px;
 }
 

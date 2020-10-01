@@ -15,6 +15,7 @@
 /* General */
 body {
   font-family: var(--font-balsamiq);
+  width: 100%;
 }
 
 a {
@@ -78,6 +79,17 @@ main {
   padding: 10px 1em;
 }
 
+.load-more a {
+  color: var(--black);
+  border-bottom: 3px solid var(--black);
+  text-transform: uppercase;
+}
+
+.guides h1 a {
+  color: var(--black);
+  text-decoration: underline;
+}
+
 .nav-bar ul li a {
   color: var(--white);
   font-size: 25px;
@@ -107,6 +119,16 @@ main {
   right: 80px;
   display: flex;
   align-items: center;
+  margin: 30px 0 0 0;
+}
+
+#supporter div {
+  border: 1px solid;
+  width: 400px;
+  border-radius: 15px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
 }
 
 #latest-articles .theme div {
@@ -115,6 +137,53 @@ main {
   background-color: var(--black);
   transform: rotate(-20deg);
   border-radius: 15px;
+}
+
+.writer p {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.guides p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.popular-writer .text p {
+  line-height: 1.7;
+}
+
+#membership p {
+  font-size: 18px;
+  width: 675px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+#supporter p {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+#upcoming p {
+  font-size: 16px;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+#members p {
+  color: var(--white);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+#shipping-now p {
+  width: 50%;
+  margin: 0 auto 40px;
+  font-size: 24px;
+  line-height: 1.7;
 }
 
 #latest-articles .theme p {
@@ -149,13 +218,18 @@ main {
   transform: rotate(-20deg);
 }
 
-.writer p {
-  margin-left: 20px;
-  font-size: 16px;
+#design-systems h2 {
+  font-size: 40px;
 }
 
-#latest-articles-container .title {
-  /* display: flex; */
+#news-letter h2 {
+  font-size: 40px;
+}
+
+#latest-posts article h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 40px;
 }
 
 #latest-articles-container .title h2 {
@@ -165,8 +239,6 @@ main {
 
 #latest-articles-container .title .comment {
   display: inline;
-  width: 160px;
-  height: 25px;
   background-color: var(--black);
 }
 
@@ -179,6 +251,15 @@ main {
   position: relative;
 }
 
+.popular-writer .image_wrap .image {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  transform: rotate(-20deg);
+  background-color: var(--black);
+  margin-right: 40px;
+}
+
 #membership .image {
   position: absolute;
   width: 300px;
@@ -186,13 +267,6 @@ main {
   top: -70px;
   right: 100px;
   transform: rotate(-20deg);
-}
-
-#membership p {
-  font-size: 18px;
-  width: 675px;
-  margin-bottom: 40px;
-  line-height: 1.7;
 }
 
 /* Latest Posts */
@@ -207,16 +281,35 @@ main {
   background-color: var(--medium-grey);
 }
 
+#supporter a {
+  display: block;
+  width: 125px;
+  height: 35px;
+  background-color: var(--black);
+  color: var(--white);
+  line-height: 30px;
+  margin: 20px auto 0;
+}
+
 #latest-posts article a {
   display: block;
   padding: 30px 40px 0;
   color: var(--black);
 }
 
-#latest-posts article h2 {
-  text-decoration: underline;
-  font-size: 30px;
-  margin-bottom: 40px;
+.popular-writer .text {
+  margin-top: -25px;
+}
+
+#person-week .text {
+  width: 1013px;
+  margin-top: -20px;
+}
+
+#design-systems .text {
+  font-size: 18px;
+  line-height: 1.7;
+  width: 834px;
 }
 
 #latest-posts article .text {
@@ -229,33 +322,7 @@ main {
   padding-top: 30px;
 }
 
-#supporter div {
-  border: 1px solid;
-  width: 400px;
-  border-radius: 15px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 40px 0;
-}
-
-#supporter p {
-  width: 80%;
-  margin: 0 auto;
-  line-height: 1.6;
-}
-
-#supporter a {
-  display: block;
-  width: 125px;
-  height: 35px;
-  background-color: var(--black);
-  color: var(--white);
-  line-height: 30px;
-  margin: 20px auto 0;
-}
-
 /* Members */
-
 #members {
   height: 745px;
   background-color: var(--black);
@@ -274,12 +341,6 @@ main {
   color: var(--white);
   font-size: 50px;
   text-decoration: underline;
-}
-
-#members P {
-  color: var(--white);
-  font-size: 18px;
-  line-height: 1.7;
 }
 
 #members .btn {
@@ -311,24 +372,11 @@ main {
   color: var(--white);
 }
 
-#upcoming p {
-  font-size: 16px;
-  width: 50%;
-  margin: 0 auto;
-  line-height: 1.7;
-}
-
 /* load-more */
 .load-more {
   width: 100%;
   margin: 80px auto;
   text-align: center;
-}
-
-.load-more a {
-  color: var(--black);
-  border-bottom: 3px solid var(--black);
-  text-transform: uppercase;
 }
 
 /* shipping-now */
@@ -343,13 +391,6 @@ main {
 #shipping-now h2 a {
   font-size: 50px;
   color: var(--black);
-}
-
-#shipping-now p {
-  width: 50%;
-  margin: 0 auto 40px;
-  font-size: 24px;
-  line-height: 1.7;
 }
 
 #shipping-now .btn {
@@ -378,13 +419,7 @@ main {
   transform: rotate(-20deg);
 }
 
-#person-week .text {
-  width: 1013px;
-  margin-top: -20px;
-}
-
 /* popular-writers */
-
 #popular-writers {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -399,26 +434,14 @@ main {
   padding: 100px 0;
 }
 
-.popular-writer .image_wrap .image {
-  width: 70px;
-  height: 70px;
-  border-radius: 15px;
-  transform: rotate(-20deg);
-  background-color: var(--black);
-  margin-right: 40px;
-}
-
-.popular-writer .text {
-  margin-top: -25px;
+.footer h4 {
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .popular-writer .text h4 {
   font-size: 32px;
   margin: 0;
-}
-
-.popular-writer .text p {
-  line-height: 1.7;
 }
 
 /* design-systems */
@@ -431,16 +454,6 @@ main {
 
 #design-systems .subtitle {
   text-transform: uppercase;
-}
-
-#design-systems h2 {
-  font-size: 40px;
-}
-
-#design-systems .text {
-  font-size: 18px;
-  line-height: 1.7;
-  width: 834px;
 }
 
 #design-systems .image {
@@ -466,16 +479,6 @@ main {
   padding: 20px;
 }
 
-.guides h1 a {
-  color: var(--black);
-  text-decoration: underline;
-}
-
-.guides p {
-  font-size: 18px;
-  line-height: 1.7;
-}
-
 #news-letter {
   padding: 40px;
 }
@@ -483,10 +486,6 @@ main {
 #news-letter .image {
   height: 349px;
   background-color: var(--medium-grey);
-}
-
-#news-letter h2 {
-  font-size: 40px;
 }
 
 #news-letter .email {
@@ -506,17 +505,13 @@ main {
   position: relative;
 }
 
-.footer h4 {
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
 #footer-navigation {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 60px;
 }
+
 #footer-navigation li {
   display: flex;
   align-items: center;
@@ -536,11 +531,16 @@ main {
 #footer-text {
   font-size: 16px;
   font-style: italic;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #footer-links {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
 }
 
 #footer-links li {
@@ -565,7 +565,7 @@ main {
   left: 100px;
 }
 
-#footer-image-01 {
+#footer-image-02 {
   bottom: 20px;
   right: 100px;
 }

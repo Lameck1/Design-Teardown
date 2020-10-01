@@ -15,7 +15,6 @@
 /* General */
 body {
   font-family: var(--font-balsamiq);
-  width: 100%;
 }
 
 a {
@@ -29,6 +28,7 @@ ul {
 
 main {
   margin: 0 auto;
+  width: 100%;
 }
 
 .image {
@@ -51,6 +51,10 @@ main {
   padding: 40px 0;
 }
 
+.font-pt-serif {
+  font-family: var(--font-pt-serif);
+}
+
 /* Navigation */
 .header {
   display: flex;
@@ -58,7 +62,7 @@ main {
   justify-content: space-between;
   height: 103px;
   padding: 16px 40px;
-  background-color: var(--black);
+  background-color: var(--dark-grey);
 }
 
 .logo {
@@ -77,12 +81,14 @@ main {
 
 .nav-bar ul li {
   padding: 10px 1em;
+  background-color: var(--black);
 }
 
 .load-more a {
   color: var(--black);
   border-bottom: 3px solid var(--black);
   text-transform: uppercase;
+  font-family: var(--font-pt-serif);
 }
 
 .guides h1 a {
@@ -147,10 +153,12 @@ main {
 .guides p {
   font-size: 18px;
   line-height: 1.7;
+  font-family: var(--font-pt-serif);
 }
 
 .popular-writer .text p {
   line-height: 1.7;
+  font-family: var(--font-pt-serif);
 }
 
 #membership p {
@@ -213,7 +221,7 @@ main {
 .tilt {
   height: 86px;
   width: 86px;
-  background-color: var(--black);
+  background-color: var(--light-grey);
   border-radius: 15px;
   transform: rotate(-20deg);
 }
@@ -230,6 +238,12 @@ main {
   text-decoration: underline;
   font-size: 30px;
   margin-bottom: 40px;
+}
+
+#latest-articles-container .title {
+  color: var(--white);
+  margin-top: 30px;
+  background-color: var(--black);
 }
 
 #latest-articles-container .title h2 {
@@ -308,6 +322,7 @@ main {
 
 #design-systems .text {
   font-size: 18px;
+  font-family: var(--font-pt-serif);
   line-height: 1.7;
   width: 834px;
 }
@@ -351,7 +366,6 @@ main {
 
 /* upcoming */
 #upcoming {
-  width: 1381px;
   height: 658px;
   background-color: var(--light-grey);
   border-radius: 15px;
@@ -408,6 +422,7 @@ main {
   align-items: flex-start;
   width: 90%;
   margin: 40px auto;
+  font-family: var(--font-pt-serif);
 }
 
 #person-week .image {
@@ -498,11 +513,10 @@ main {
 
 /* footer */
 .footer {
-  width: 100%;
   background-color: var(--light-grey);
   text-align: center;
-  padding: 32px 48px;
   position: relative;
+  font-family: var(--font-pt-serif);
 }
 
 #footer-navigation {
